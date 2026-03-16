@@ -1,0 +1,5 @@
+-keepattributes *Annotation*
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-dontwarn android.media.**
+-keep class android.media.audiofx.LoudnessEnhancer { *; }
